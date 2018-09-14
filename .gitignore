@@ -1,0 +1,10 @@
+/node_modules
+/.log
+/coverage
+/dist
+/transcripted_src
+/production
+/development
+/.env
+/.vscode
+.DS_Store

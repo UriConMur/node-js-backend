@@ -1,0 +1,11 @@
+const path = require('path');
+
+const service = process.env.MICROSERVICE;
+const environment = process.env.NODE_ENV;
+
+module.exports = {
+  'config': path.resolve(`./src/services/${service}/config/`, 'database.js'),
+  'models-path': path.resolve(`./src/services/${service}/orm/models`),
+  'seeders-path': path.resolve(`./src/services/${service}/orm/seeders/${environment}`),
+  'migrations-path': path.resolve(`./src/services/${service}/orm/migrations`)
+};

@@ -1,0 +1,9 @@
+{
+  "PORT": 3000,
+  "LOGGER": {
+    "LEVEL": "silly",
+    "FILE_NAME": ".log",
+    "SIZE": 5000000
+  },
+  "IDENTITY_API_URL": "http://localhost:3000/api/v1/identity/"
+}

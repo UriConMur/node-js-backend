@@ -78,7 +78,11 @@ info: {
 * [Express](https://expressjs.com/) - Node.js web application framework
 * [NPM](https://maven.apache.org/) - Dependency Management
 
-## 3. Contribution Guidelines
+
+## App Structure
+This application is structure using [Fractal Pattern](https://codeburst.io/fractal-a-nodejs-app-structure-for-infinite-scale-d74dda57ee11)
+
+## Contribution Guidelines
 Contributors should adhere to the git best practices.
 Project includes commitizen integrated with husky and commitlint to implement guidelines used by [Angular](https://github.com/angular/angular.js/blob/master/DEVELOPERS.md#-git-commit-guidelines). test
 
